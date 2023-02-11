@@ -1,0 +1,76 @@
+.App {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #fff9ca;
+  color: #5a5097;
+}
+#black {
+  background-color: #041c32;
+  color: #b3541e;
+}
+.toggle {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#select {
+  width: 500px;
+  align-self: center;
+}
+
+.form {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: small;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+}
+.row {
+  display: flex;
+  justify-content: center;
+}
+.col-light {
+  margin: 15px;
+  padding: 8px;
+  border: 1px solid #b2a4ff;
+  border-radius: 5px;
+  background-color: #ffdeb4;
+}
+.col-dark {
+  margin: 15px;
+  padding: 8px;
+  border: 1px solid #b2a4ff;
+  border-radius: 5px;
+  background-color: #ecb365;
+  color: #041c32;
+}
+.button-light {
+  background-color: #5a5097;
+  color: #fff9ca;
+  padding: 5px;
+  border-radius: 5px;
+  border: 0;
+}
+.button-dark {
+  background-color: #b3541e;
+  color: #041c32;
+  padding: 5px;
+  border-radius: 5px;
+  border: 0;
+}
